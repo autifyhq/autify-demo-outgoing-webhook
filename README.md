@@ -1,4 +1,4 @@
-[github-action-badge]: https://github.com/autifyhq/autify-demo-outgoing-webhook/workflows/Check%20Markdown%20links/badge.svg
+[github-action-badge]: https://github.com/autifyhq/autify-demo-outgoing-webhook/workflows/lint/badge.svg
 
 [pr-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
 [pr-welcome-link]: http://makeapullrequest.com
