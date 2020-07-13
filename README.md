@@ -16,6 +16,7 @@
 ## Usage
 
 1. Start ngrok
+
    ```bash
    ./ngrok http 4567
 
@@ -23,20 +24,26 @@
    Forwarding                    https://e019d1e10024.ngrok.io -> http://localhost:4567
    (snip)
    ```
+
 1. Go to project setting on Autify
 1. Click `Add` on Webhook section
 1. Set `URL` to the value obtained in #1.
 1. Set `Secret` _(Note: Optional)_
 1. Clone the repository
+
    ```bash
    git clone git@github.com:autifyhq/autify-demo-outgoing-webhook.git
    cd autify-demo-outgoing-webhook
    ```
+
 1. Build an image from a Dockerfile
+
    ```bash
    docker build -t outgoing-webhook-demo --build-arg RUBY_VERSION=2.6.5-alpine3.10 --build-arg BUNDLER_VERSION=2.0.2 .
    ```
+
 1. Start a server
+
    ```bash
    # Without Secret
    docker run -p 4567:80 outgoing-webhook-demo
@@ -44,6 +51,7 @@
    # With Secret
    docker run -p 4567:80 -e SECRET_TOKEN=<SECRET from \#5> outgoing-webhook-demo
    ```
+
 1. Go to project setting on Autify
 1. Set `URL` to the value obtained in #1.
 1. Set `Secret` to the value obtained in #5 if you added.

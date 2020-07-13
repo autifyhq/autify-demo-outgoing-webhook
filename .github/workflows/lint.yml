@@ -7,15 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        config-file: 'markdown-link-check-config.json'
     - uses: nosborn/github-action-markdown-cli@v1.1.1
       with:
         files: README.md
+        config_file: "markdown-lint-check-config.json"
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        config-file: "markdown-link-check-config.json"
     - name: Set up Ruby
       uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
     - name: Install dependencies
       run: bundle install
     - name: Check ruby code format
-      run: bundle exec rufo --checkv
+      run: bundle exec rufo --check
