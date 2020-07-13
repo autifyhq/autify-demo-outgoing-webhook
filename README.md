@@ -1,13 +1,3 @@
-[github-action-badge]: https://github.com/autifyhq/autify-demo-outgoing-webhook/workflows/lint/badge.svg
-
-[pr-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
-[pr-welcome-link]: http://makeapullrequest.com
-
-[demo-badge]: https://img.shields.io/badge/Autify-Demo-brightgreen
-[demo-link]:  https://github.com/search?utf8=%E2%9C%93&q=demo%2Buser%3Aautifyhq&type=Repositories&ref=searchresults
-
-![Check Markdown links][github-action-badge] [![PRs Welcome][pr-welcome-badge]][pr-welcome-link] [![Demo Badge][demo-badge]][demo-link]
-
 # autify-demo-outgoing-webhook
 
 ## Prerequisites
@@ -73,3 +63,13 @@ Submit all changes directly to the master branch.
 
 autify-demo-outgoing-webhook © [Autify Engineers](https://github.com/autifyhq). Released under the [MIT License](LICENSE).<br/>
 Authored and maintained by [Autify Engineers](https://github.com/autifyhq) with help from [contributors](https://github.com/autifyhq/autify-demo-outgoing-webhook/graphs/contributors).
+
+[github-action-badge]: https://github.com/autifyhq/autify-demo-outgoing-webhook/workflows/lint/badge.svg
+
+[pr-welcome-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
+[pr-welcome-link]: http://makeapullrequest.com
+
+[demo-badge]: https://img.shields.io/badge/Autify-Demo-brightgreen
+[demo-link]:  https://github.com/search?utf8=%E2%9C%93&q=demo%2Buser%3Aautifyhq&type=Repositories&ref=searchresults
+
+![Check Markdown links][github-action-badge] [![PRs Welcome][pr-welcome-badge]][pr-welcome-link] [![Demo Badge][demo-badge]][demo-link]
