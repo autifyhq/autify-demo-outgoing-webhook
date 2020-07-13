@@ -14,11 +14,3 @@ jobs:
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
         config-file: "markdown-link-check-config.json"
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
-      with:
-        ruby-version: 2.6.5
-    - name: Install dependencies
-      run: bundle install
-    - name: Check ruby code format
-      run: rufo --check
